@@ -57,6 +57,10 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
 
 /**#@-*/
 
+$_SERVER['HTTPS'] = 'on';
+define('FORCE_SSL_LOGIN', true);
+define('FORCE_SSL_ADMIN', true);
+
 /**
  * WordPress Database Table prefix.
  *
